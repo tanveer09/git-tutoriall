@@ -1,0 +1,23 @@
+Git is Version control for code 
+
+For Windows we use Windows PowerShell Command line 
+
+Command Line Commands : 
+1. ls : Lists all the files and folders in the current folder.
+2. cd : is to change the directory(foldedr ), i.e. to change the folder.
+3. cd.. : is to go back to the previous folder from the surrent folder.
+4. pwd : is Print Working Directory. It prints the path of the working or current directory, starting from the root.
+5. 
+
+Creating a Version 
+
+Lets create the first version of our code in the version history
+
+so the first step is to set up git inside this folder that contains the code 
+
+to do that the command is 
+
+git init : Git will start tracking all changes in the current folder
+
+
+To create a new version the command is git commit -m "" so here m is message and version = commit 
