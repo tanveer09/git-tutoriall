@@ -1,2 +1,2 @@
 console.log('config.js');
-console.log('versio15');
+console.log('version15');
