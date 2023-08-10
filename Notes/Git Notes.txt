@@ -74,3 +74,9 @@ git push origin master . So here origin is the remote repository name where will
 git push :  We push one brach of commits at a time 
 
 
+So we use git push in both cases: to initially push our code up to github, and then later on to push new commits up to github as well.
+
+Nice short cut to update git push 
+
+git remote origin master --set-upstream 
+So what this does is that it sets up a sort of shortcut for git push, so that the next time you run git push, you can just run this command, and git will automatically memorize origin and master for you.
