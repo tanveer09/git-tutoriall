@@ -21,3 +21,56 @@ git init : Git will start tracking all changes in the current folder
 
 
 To create a new version the command is git commit -m "" so here m is message and version = commit 
+
+git add . 
+git status 
+git commit -m "Message"
+git log 
+git log --all 
+git log --all --graph
+git reset . 
+
+
+
+GITHUB 
+
+Online backup of our code using Git and Github. 
+We do online backup from our computer if our system stops working, or we dont have the system at the point of time where you want to use your code. its helpful to always maintain online backup 
+
+Git repository is a folder that contains our code that is being tracked for changes by git. 
+Github is specifically designed for git repositories. It has a lot of features that allows us to manage our code and version history. 
+Other services like Github is : Bigbucket, GitLab.
+
+1. First lets create a GitHub account. 
+2. Creating a Online backup
+
+Create new repository
+
+local repository is the  the folder on our computer. Local refers to things on our computer. 
+
+remote repository is that is online. remote refers to things that are online 
+
+Upload our local repository into the remote repository.
+
+Open git bash 
+
+git remote origin "url"
+
+git remote 
+
+git remote -v , v here is verbose that is give more details. 
+
+Upload to GitHub is Push, i.e. pushing our code to Github
+Download the code from github is Pull, i.e. pulling our code from GitHub
+
+so before that we shall configure our credentials by 
+
+git config --global credential.username "github username"
+
+now we shall push 
+
+git push origin master . So here origin is the remote repository name where will be pushing our code to and Master is the 
+
+git push :  We push one brach of commits at a time 
+
+
